@@ -66,21 +66,21 @@ function SamAndDonna() {
 }
 /* третья часть с Сэмом */
 function SamAndSofie() {
-  image.setAttribute("src", "SamSofie.jpeg");
+  image.setAttribute("src", "sam%26Sofie.jpeg");
   text.textContent = "видеться с дочкой Софи по выходным.";
   buttonAgain.style = "display: block";
   buttonTwo.style = "display: none";
   buttonAgain.addEventListener("click", Back);
 }
 function AloneSam() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/just%20sam.jpg?v=1653255044655");
+  image.setAttribute("src", "just%20sam.jpeg");
   text.textContent = "не увидит свою дочь Софи.";
   buttonAgain.style = "display: block";
   buttonOne.style = "display: none";
   buttonAgain.addEventListener("click", Back);
 }
 function RunDonna() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/sam%26donna.jpg?v=1653255052386");
+  image.setAttribute("src", "sam%26donna.jpeg");
   text.textContent = "Они разойдутся в разные стороны. Это конец?";
   buttonOne.textContent = "Нет...";
   buttonTwo.textContent = "Да...";
@@ -88,7 +88,7 @@ function RunDonna() {
   buttonTwo.addEventListener("click", Divorce);
 }
 function Love() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/love.jpg?v=1653255047149");
+  image.setAttribute("src", "love.jpeg");
   text.textContent = "Сэм и Донна снова будут вместе спустя много лет!";
   buttonAgain.style = "display: block";
   buttonOne.style = "display: none";
@@ -96,7 +96,7 @@ function Love() {
   buttonAgain.addEventListener("click", Back);
 }
 function Divorce() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/sam%20on%20wed.jpg?v=1653255049858");
+  image.setAttribute("src", "sam%20on%20wed.jpeg");
   text.textContent = "Но Сэм неожиданно появится на свадьбе дочери!";
   buttonAgain.style = "display: block";
   buttonOne.style = "display: none";
@@ -107,7 +107,7 @@ function Divorce() {
 /* ГАРРИ */
 buttonThree.addEventListener("click", Garry);
 function Garry() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/just_garry.jpg?v=1653255190183");
+  image.setAttribute("src", "just_garry.jpeg");
   text.textContent = "Как долго продлится их счастье?";
   buttonThree.textContent = "Они поженятся";
   buttonFour.textContent = "Вскоре они разойдутся";
@@ -118,7 +118,7 @@ function Garry() {
   buttonFour.addEventListener("click", Break);
 }
 function GarryAndDonna() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/garry.jpg?v=1653255182811");
+  image.setAttribute("src", "garry.jpeg");
   text.textContent =
     "Вскоре Гарри и Донна разойдутся из-за карьеры Гарри. Но что будет с Софи?";
   buttonThree.textContent = "Софи и отец";
@@ -127,7 +127,7 @@ function GarryAndDonna() {
   buttonFour.addEventListener("click", Mom);
 }
 function Break() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/garry%26son.jpg?v=1653255188026");
+  image.setAttribute("src", "garry%26son.jpeg");
   text.textContent = "Донна узнает о внебрачном сыне Гарри и уйдёт от него!";
   buttonAgain.style = "display: block";
   buttonThree.style = "display: none";
@@ -136,7 +136,7 @@ function Break() {
 }
 /* третья часть с Гарри */
 function Dad() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/garry%26sofie.jpg?v=1653255184730");
+  image.setAttribute("src", "garry%26sofie.jpeg");
   text.textContent = "Гарри заберёт дочь с собой!";
   buttonAgain.style = "display: block";
   buttonThree.style = "display: none";
@@ -144,7 +144,7 @@ function Dad() {
   buttonAgain.addEventListener("click", Back);
 }
 function Mom() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/donna%26sofie.jpg?v=1653255177357");
+  image.setAttribute("src", "donna%26sofie.jpeg");
   text.textContent = "Софи останется с мамой на острове.";
   buttonAgain.style = "display: block";
   buttonThree.style = "display: none";
@@ -155,7 +155,7 @@ function Mom() {
 /* ДОННА */
 buttonFour.addEventListener("click", Donna);
 function Donna() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/donna.jpg?v=1653255214765");
+  image.setAttribute("src", "donna.jpeg");
   text.textContent = "Чем займётся наша героиня?";
   buttonThree.textContent = "Музыка";
   buttonFour.textContent = "Остров";
@@ -166,7 +166,7 @@ function Donna() {
   buttonFour.addEventListener("click", Island);
 }
 function Music() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/Super%20Trouper.jpg?v=1653255224723");
+  image.setAttribute("src", "Super%20Trouper.jpeg");
   text.textContent =
     "Донна станет участницей музыкальной группы! Будут ли они успешны?";
   buttonThree.textContent = "Да";
@@ -175,7 +175,7 @@ function Music() {
   buttonFour.addEventListener("click", Drunk);
 }
 function Solo() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/famous.jpg?v=1653255220373");
+  image.setAttribute("src", "famous.jpeg");
   text.textContent = "Через несколько нет Донна сделает сольную карьеру!!!";
   buttonThree.style = "display: none";
   buttonFour.style = "display: none";
@@ -183,7 +183,7 @@ function Solo() {
   buttonAgain.addEventListener("click", Back);
 }
 function Drunk() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/drunk.jpg?v=1653255217622");
+  image.setAttribute("src", "drunk.jpeg");
   text.textContent = "Вскоре её выгонят из-за алкоголя...";
   buttonThree.style = "display: none";
   buttonFour.style = "display: none";
@@ -191,7 +191,7 @@ function Drunk() {
   buttonAgain.addEventListener("click", Back);
 }
 function Island() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/island.jpg?v=1653255222231");
+  image.setAttribute("src", "island.jpeg");
   text.textContent = "Донна уедет на греческий остров. Что ждёт её там?";
   buttonThree.textContent = "Ребёнок";
   buttonFour.textContent = "Одиночество";
@@ -200,7 +200,7 @@ function Island() {
 }
 /* третья часть о Донне */
 function Child() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/dads%26sofie.jpg?v=1653255212289");
+  image.setAttribute("src", "dads%26sofie.jpeg");
   text.textContent =
     "На острове она родит ребёнка от одного из своих женихов. И позже дочь будет искать своего отца!";
   buttonThree.style = "display: none";
@@ -209,7 +209,7 @@ function Child() {
   buttonAgain.addEventListener("click", Back);
 }
 function Loneless() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/crazy.jpg?v=1653255210066");
+  image.setAttribute("src", "crazy.jpeg");
   text.textContent =
     "Она будет наслаждаться одиночеством всю оставшуюся жизнь.";
   buttonThree.style = "display: none";
