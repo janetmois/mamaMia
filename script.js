@@ -24,7 +24,7 @@ function Bill() {
   buttonTwo.addEventListener("click", BadBill);
 }
 function BillAndDonna() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/cheater.jpg?v=1653254931885");
+  image.setAttribute("src", "cheater.jpeg");
   text.textContent = "Донна будет ему изменять с Сэмом!!!";
   buttonOne.style = "display: none";
   buttonTwo.style = "display: none";
@@ -33,7 +33,7 @@ function BillAndDonna() {
   buttonAgain.addEventListener("click", Back);
 }
 function BadBill() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/crazy_bill.jpg?v=1653254934086");
+  image.setAttribute("src", "crazy_bill.jpeg");
   text.textContent =
     "Донна не сможет перенести это и проведёт остатки своих дней в психиатрической лечебнице!";
   buttonOne.style = "display: none";
@@ -46,7 +46,7 @@ function BadBill() {
 /* СЭМ */
 buttonTwo.addEventListener("click", Sam);
 function Sam() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/separate.jpg?v=1653255057990");
+  image.setAttribute("src", "separate.jpeg");
   text.textContent = "Ждёт ли их счастье?";
   buttonOne.textContent = "Они будут вместе!";
   buttonTwo.textContent = "Донна сбежит от Сэма...";
@@ -57,7 +57,7 @@ function Sam() {
   buttonTwo.addEventListener("click", RunDonna);
 }
 function SamAndDonna() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/work.jpg?v=1653255059818");
+  image.setAttribute("src", "work.jpeg");
   text.textContent = "Сэм будет заставлять Донну работать и она уйдёт от него!";
   buttonOne.textContent = "Сэм будет...";
   buttonTwo.textContent = "Сэм никогда...";
@@ -66,7 +66,7 @@ function SamAndDonna() {
 }
 /* третья часть с Сэмом */
 function SamAndSofie() {
-  image.setAttribute("src", "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/Sam%26Sofie.jpg?v=1653255055109");
+  image.setAttribute("src", "SamSofie.jpeg");
   text.textContent = "видеться с дочкой Софи по выходным.";
   buttonAgain.style = "display: block";
   buttonTwo.style = "display: none";
