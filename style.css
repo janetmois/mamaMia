@@ -1,0 +1,50 @@
+.header,
+.image-container,
+.btn,
+.btn-start {
+  display: flex;
+  justify-content: center;
+}
+body {
+  background: #f3e9dd;
+}
+h1,
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-top: 80px;
+}
+#one,
+#two,
+#three,
+#four,
+#again {
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  background: #2a315d;
+  color: white;
+  border: 1px solid #2a315d;
+  border-radius: 6px;
+  margin: 3px;
+}
+#one:hover,
+#two:hover,
+#three:hover,
+#four:hover,
+#again:hover {
+  background: #525c6f;
+  border: 1px solid #525c6f;
+}
+#myImage {
+  border-radius: 6px;
+}
+#again {
+  display: none;
+}
