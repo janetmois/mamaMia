@@ -66,21 +66,21 @@ function SamAndDonna() {
 }
 /* третья часть с Сэмом */
 function SamAndSofie() {
-  image.setAttribute("src", "sam%26Sofie.jpeg");
+  image.setAttribute("src", "sam_Sofie.jpeg");
   text.textContent = "видеться с дочкой Софи по выходным.";
   buttonAgain.style = "display: block";
   buttonTwo.style = "display: none";
   buttonAgain.addEventListener("click", Back);
 }
 function AloneSam() {
-  image.setAttribute("src", "just%20sam.jpeg");
+  image.setAttribute("src", "just_sam.jpeg");
   text.textContent = "не увидит свою дочь Софи.";
   buttonAgain.style = "display: block";
   buttonOne.style = "display: none";
   buttonAgain.addEventListener("click", Back);
 }
 function RunDonna() {
-  image.setAttribute("src", "sam%26donna.jpeg");
+  image.setAttribute("src", "sam_donna.jpeg");
   text.textContent = "Они разойдутся в разные стороны. Это конец?";
   buttonOne.textContent = "Нет...";
   buttonTwo.textContent = "Да...";
@@ -96,7 +96,7 @@ function Love() {
   buttonAgain.addEventListener("click", Back);
 }
 function Divorce() {
-  image.setAttribute("src", "sam%20on%20wed.jpeg");
+  image.setAttribute("src", "sam_on_wed.jpeg");
   text.textContent = "Но Сэм неожиданно появится на свадьбе дочери!";
   buttonAgain.style = "display: block";
   buttonOne.style = "display: none";
@@ -127,7 +127,7 @@ function GarryAndDonna() {
   buttonFour.addEventListener("click", Mom);
 }
 function Break() {
-  image.setAttribute("src", "garry%26son.jpeg");
+  image.setAttribute("src", "garry_son.jpeg");
   text.textContent = "Донна узнает о внебрачном сыне Гарри и уйдёт от него!";
   buttonAgain.style = "display: block";
   buttonThree.style = "display: none";
@@ -136,7 +136,7 @@ function Break() {
 }
 /* третья часть с Гарри */
 function Dad() {
-  image.setAttribute("src", "garry%26sofie.jpeg");
+  image.setAttribute("src", "garry_sofie.jpeg");
   text.textContent = "Гарри заберёт дочь с собой!";
   buttonAgain.style = "display: block";
   buttonThree.style = "display: none";
@@ -144,7 +144,7 @@ function Dad() {
   buttonAgain.addEventListener("click", Back);
 }
 function Mom() {
-  image.setAttribute("src", "donna%26sofie.jpeg");
+  image.setAttribute("src", "donna_sofie.jpeg");
   text.textContent = "Софи останется с мамой на острове.";
   buttonAgain.style = "display: block";
   buttonThree.style = "display: none";
@@ -166,7 +166,7 @@ function Donna() {
   buttonFour.addEventListener("click", Island);
 }
 function Music() {
-  image.setAttribute("src", "Super%20Trouper.jpeg");
+  image.setAttribute("src", "Super_Trouper.jpeg");
   text.textContent =
     "Донна станет участницей музыкальной группы! Будут ли они успешны?";
   buttonThree.textContent = "Да";
@@ -200,7 +200,7 @@ function Island() {
 }
 /* третья часть о Донне */
 function Child() {
-  image.setAttribute("src", "dads%26sofie.jpeg");
+  image.setAttribute("src", "dads_sofie.jpeg");
   text.textContent =
     "На острове она родит ребёнка от одного из своих женихов. И позже дочь будет искать своего отца!";
   buttonThree.style = "display: none";
