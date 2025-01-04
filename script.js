@@ -12,7 +12,7 @@ buttonOne.addEventListener("click", Bill);
 function Bill() {
   image.setAttribute(
     "src",
-    "https://cdn.glitch.global/2aacc9e4-57c2-4cd9-beac-f405434abfb7/bill.jpg?v=1653254927867"
+    "bill.jpeg"
   );
   text.textContent = "Будет ли он хорошим мужем?";
   buttonOne.textContent = "Да, но...";
